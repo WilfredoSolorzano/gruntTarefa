@@ -105,5 +105,3 @@ module.exports = function(grunt) {
     grunt.registerTask('build', ['less:production', 'htmlmin:dist','replace:dist','clean','uglify'])
   };
 
-  /* logre ejecutar el watch, ahora seguir elaboran do el archivo less, vincular con 
-  html y hacer lo de javascrt*/
